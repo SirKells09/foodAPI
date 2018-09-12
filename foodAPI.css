@@ -1,0 +1,58 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:purple;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: aquamarine;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.results {
+    padding: 5px;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    text-emphasis: 'x';
+-webkit-text-emphasis: 'x';
+   text-shadow: 4px 2px 2px black;
+    font-size: 75px;
+    text-align: center;
+    color: #bc772a;
+}
+h1 {
+    letter-spacing: 3px;
+    text-emphasis: open;
+    text-emphasis: filled double-circle blue;
+   -webkit-text-emphasis: filled double-circle blue;
+    text-align: center;
+    line-break: auto;
+    line-height: 5em;
+    font-size: 50px;
+
+}
+h2 {
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    line-height: 3em;
+}
+
+.section{
+    background-color: yellow;
+    border: 1px solid #ccc;
+}
+img {
+    margin: 50px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    max-width: 400px;
+    border-radius: 5em;
+}
+.clearfix {
+    clear:both;
+}
