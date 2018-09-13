@@ -1,6 +1,7 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:purple;
+    background-color: greenyellow;
     text-shadow: 2px 2px 2px black;
     text-decoration: aquamarine;
 }
@@ -11,6 +12,7 @@ body {
 }
 .results {
     padding: 5px;
+    
 }
 
 p {
@@ -40,6 +42,13 @@ h2 {
     letter-spacing: 2.5px;
     font-size: 25px;
     line-height: 3em;
+}
+#title{
+    
+    color:white;
+    text-shadow: 4px 2px 2px 4px 4px black 10px grey;
+    font-size: 38px;
+    letter-spacing: 3px;
 }
 
 .section{

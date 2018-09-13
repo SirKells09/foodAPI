@@ -86,7 +86,7 @@ window.onload = function () {
      "./assets/twoBurgersTatts.jpg",
                        ]
 
-       setInterval(changeImage, 2000);
+       setInterval(changeImage, 3000);
       function changeImage() {   
        var i = Math.floor((Math.random() * 6));
 
