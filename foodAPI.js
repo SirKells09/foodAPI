@@ -35,7 +35,7 @@ function fetchResults(e) {
     }
     
     function displayResults(json){
-        while(section.firstChild){ // ask what this means
+        while(section.firstChild){ 
         section.removeChild(section.firstChild);
        }
        let recipes = json.hits;

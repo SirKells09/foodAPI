@@ -35,8 +35,8 @@ function fetchResults(e) {
     }
     
     function displayResults(json){
-        while(section.firstChild){ // ask what this means
-        section.removeChild(section.firstChild);
+        // while(section.firstChild){ // ask what this means
+        // section.removeChild(section.firstChild);
        }
        let recipes = json.hits;
 console.log(recipes);
@@ -74,7 +74,7 @@ for(let i = 0; i < recipes.length; i++){
     }
    
 }
-}
+
 
 
 window.onload = function () {
