@@ -17,8 +17,6 @@ searchForm.addEventListener('submit', fetchResults);
 // previousBtn.addEventListener('click', json.to);
 
 
-
-
 function fetchResults(e) {
     e.preventDefault();
     console.log(e);
@@ -80,10 +78,8 @@ for(let i = 0; i < recipes.length; i++){
 window.onload = function () {
     // Array of Images
      var backgroundImg=["./assets/corndogBackdrop.jpg" ,
-     "./assets/burgerAndFries.jpg",
-     "./assets/fries.jpg",
-     "./assets/m&ms.jpg" ,
      "./assets/twoBurgersTatts.jpg",
+     "./assets/multiColorOranges.jpg",
                        ]
 
        setInterval(changeImage, 3000);

@@ -1,7 +1,7 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:purple;
-    background-color: greenyellow;
+    background: darkgoldenrod;
+    color: blanchedalmond;
     text-shadow: 2px 2px 2px black;
     text-decoration: aquamarine;
 }
@@ -11,13 +11,15 @@ body {
     display: flex;
 }
 .results {
-    padding: 5px;
-    
+    background: peru;
+    padding: 5px;   
 }
+
 
 p {
     font-size: 25px;
 }
+
 
 a {
     text-emphasis: 'x';
@@ -39,21 +41,25 @@ h1 {
 
 }
 h2 {
+    color: blanchedalmond;
+
     letter-spacing: 2.5px;
     font-size: 25px;
     line-height: 3em;
 }
 #title{
     
-    color:white;
+    color: blanchedalmond;
     text-shadow: 4px 2px 2px 4px 4px black 10px grey;
     font-size: 38px;
     letter-spacing: 3px;
 }
 
-.section{
-    background-color: yellow;
+section{
+    background-color: midnightblue;
+    opacity: .85;
     border: 1px solid #ccc;
+    width:80vw;
 }
 img {
     margin: 50px;
